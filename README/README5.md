@@ -28,10 +28,9 @@ public class HomeController {
 ```
 
 <aside>
-〰️ **<a href="/members/new">회원 가입</a>
+〰️ <b><a href="/members/new">회원 가입</a>
  <a href="/members">회원 목록</a>
-회원 가입 페이지 경로 - /members/new, 회원 목록 조회 페이지 경로 /members**
-
+회원 가입 페이지 경로 - /members/new, 회원 목록 조회 페이지 경로 /members</b>
 </aside>
 
 - home.html 전체코드 [resources/templates..]
@@ -54,7 +53,7 @@ public class HomeController {
 </body>
 </html>
 ```
-<img src="D:\study\hello-spring\hello-spring\img\members-first.png"/>
+<img src="img/members-first.png"/>
 
 # 5-2 회원 웹 기능 - 등록
 
@@ -127,7 +126,7 @@ return "redirect:/";
 
 </aside>
 
-<img src="D:\study\hello-spring\hello-spring\img\members-new.png"/>
+<img src="img/members-new.png"/>
 
 # 5-3 회원 웹 기능 - 조회
 
@@ -176,7 +175,7 @@ model.addAttribute("members", members); <br>
 
 회원 가입 페이지에서 spring1, spring2로 이름을 등록하고 회원 목록 조회 페이지로 가면 아래 사진과 같이 화면에 데이터가 나옴
 
-<img src="../img/members-list.png"/>
+<img src="img/members-list.png"/>
 
 <aside>
 💡 참고로 현재는 Memory 리포지토리에 데이터를 잠시 저장하므로 서버를 재실행하면 데이터가 남아있지 않고 사라짐
