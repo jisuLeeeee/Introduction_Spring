@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Commit;
 import org.springframework.transaction.annotation.Transactional;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -26,7 +27,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         // given : 어떤 상황이 주어졌을 때
         Member member = new Member();
-        member.setName("spring");
+        member.setName("spring1109");
 
         // when : 실행 했을 때
         Long saveId = memberService.join(member);
